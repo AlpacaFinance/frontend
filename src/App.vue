@@ -28,13 +28,14 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
+          v-for="(item, index) in rutes" :key="index"
+          text
+          @click="insertRutes(item.rute)"
       >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        <span class="mr-2">{{item.name}}</span>
       </v-btn>
+
+
     </v-app-bar>
 
     <v-main>
@@ -49,7 +50,16 @@ export default {
   name: 'App',
 
   data: () => ({
-    //
+    rutes:[
+      { name: 'Simulador', rute: '/simulador' },
+      { name: 'Historial', rute: '/historial' }
+    ]
   }),
+
+  methods: {
+    insertRutes(rute){
+      this.$router.push(rute);
+    }
+  }
 };
 </script>
