@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lawyeed</string>
+    <string name="informacionpersonal"><u><b>Información Personal</b></u></string>
+    <string name="title_activity_editar_perfil">EditarPerfil</string>
+    <string name="editarinformacionpersonal"><u><b>Editar Información Personal</b></u></string>
+</resources>

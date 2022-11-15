@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Inicio"
+        android:id="@+id/btnMenuInicio"
+        android:icon="@drawable/ic_home"
+        android:enabled="true"/>
+    <item
+        android:title="Notificaciones"
+        android:id="@+id/btnMenuNotificaciones"
+        android:icon="@drawable/ic_notification"
+        android:enabled="true"/>
+    <item
+        android:title="Buscar"
+        android:id="@+id/btnMenuBuscar"
+        android:icon="@drawable/ic_search"
+        android:enabled="true"/>
+    <item
+        android:title="Casos"
+        android:id="@+id/btnMenuCasos"
+        android:icon="@drawable/ic_book"
+        android:enabled="true"/>
+
+</menu>
